@@ -65,10 +65,10 @@ December: {2}
 ''' .format(days, 5*6.50, '31'))
 
 for i in range(1,12):
-    print('Column 1 Number {0:2} Column 2 Squared {1:<10}' .format(i, i**2)) #{   : Alignment(< is left alignment, > is right alignment} For Integer
+    print('Column 1 Number {0:2} Column 2 Squared {1:<10}' .format(i, i**2)) #Column 1 Number {0:2} Column 2 Squared {   : Alignment(< is left alignment, > is right alignment} For Integer
 
 for i in range(1,2):
-    print("Pi is approx. {0:.3}" .format(22/7)) #{   : Precision} For Decimel
+    print("Pi is approx. {0:.3}" .format(22/7)) #"Pi is approx. {   : Precision}" For Decimel
 
 for i in range(1, 12):
     print('No. {:<4} squared is {:<4} and cubed is {:<10}'.format(i, i ** 2, i ** 3)) 

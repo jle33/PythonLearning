@@ -22,10 +22,52 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Account.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AugmentedBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="continueBreakElse.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ControlFlowBasics.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ControlFlowExample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocStrings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="forLoops.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="functionBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GenetratorExample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListComprehensions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorePracticeWithLoopsNControl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OOPBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="randomExample.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="StringBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserInput.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="whileLoops.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
